@@ -5,7 +5,6 @@ import glob
 from datetime import datetime, timezone
 from collections import Counter
 
-#simple json logger
 def log(level, message, **extra):
     log_entry = {
         "timestamp": datetime.now(timezone.utc).isoformat(),
@@ -16,8 +15,7 @@ def log(level, message, **extra):
         log_entry.update(extra)
     with open("logs.jsonl", "a", encoding="utf-8") as lf:
         lf.write(json.dumps(log_entry, ensure_ascii=False) + "\n")
-
-# it avoids the keyerror 
+ 
 def safe_get(dct, *keys):
     cur = dct
     for k in keys:
@@ -26,7 +24,6 @@ def safe_get(dct, *keys):
         cur = cur[k]
     return cur
 
-# it parses yaml through metadata
 def parse_yaml(doc):
     meta = {
         "title": safe_get(doc, "info", "title"),
@@ -72,7 +69,6 @@ def parse_yaml(doc):
     meta["method_count"] = dict(method_counter)
     return meta
 
-# summary for all yaml files
 def build_summary(all_meta):
     method_counter = Counter()
     auth_methods = set()
@@ -153,3 +149,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
