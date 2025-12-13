@@ -1,0 +1,340 @@
+{
+  "TS24283_Lms_Information.yaml": {
+    "title": "LMS_Information",
+    "version": "1.0.0-alpha.7",
+    "securitySchemes": [
+      "BearerAuth"
+    ],
+    "paths": {
+      "/requests": {
+        "post": {
+          "summary": null,
+          "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "411",
+            "413",
+            "415",
+            "429",
+            "500",
+            "503",
+            "default"
+          ],
+          "security": [
+            "BearerAuth"
+          ]
+        }
+      },
+      "/subscriptions": {
+        "post": {
+          "summary": null,
+          "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "411",
+            "413",
+            "415",
+            "429",
+            "500",
+            "503",
+            "default"
+          ],
+          "security": [
+            "BearerAuth"
+          ]
+        }
+      },
+      "/subscriptions/{subscriptionId}": {
+        "put": {
+          "summary": null,
+          "responses": [
+            "200",
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "411",
+            "413",
+            "415",
+            "429",
+            "500",
+            "503",
+            "default"
+          ],
+          "security": []
+        },
+        "delete": {
+          "summary": null,
+          "responses": [
+            "204",
+            "307",
+            "308",
+            "400",
+            "401",
+            "403",
+            "404",
+            "429",
+            "500",
+            "503",
+            "default"
+          ],
+          "security": []
+        }
+      },
+      "/configrequest": {
+        "post": {
+          "summary": null,
+          "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "411",
+            "413",
+            "415",
+            "429",
+            "500",
+            "503",
+            "default"
+          ],
+          "security": [
+            "BearerAuth"
+          ]
+        }
+      }
+    },
+    "method_count": {
+      "POST": 3,
+      "PUT": 1,
+      "DELETE": 1
+    }
+  },
+  "TS24560_Aimlec_AimlTaskTransfer.yaml": {
+    "title": "Aimlec_AimlTaskTransfer",
+    "version": "1.0.0-alpha.2",
+    "securitySchemes": [
+      "oAuth2ClientCredentials"
+    ],
+    "paths": {
+      "/request": {
+        "post": {
+          "summary": "Enables the AIMLE server to request the AIMLE client to perform AIML task transfer.",
+          "responses": [
+            "200",
+            "204",
+            "307",
+            "308",
+            "400",
+            "401",
+            "403",
+            "404",
+            "411",
+            "413",
+            "415",
+            "429",
+            "500",
+            "503",
+            "default"
+          ],
+          "security": []
+        }
+      },
+      "/request-direct": {
+        "post": {
+          "summary": "Enables the AIMLE client to request the target AIMLE client to perform AIML task transfer.\n",
+          "responses": [
+            "204",
+            "307",
+            "308",
+            "400",
+            "401",
+            "403",
+            "404",
+            "411",
+            "413",
+            "415",
+            "429",
+            "500",
+            "503",
+            "default"
+          ],
+          "security": []
+        }
+      }
+    },
+    "method_count": {
+      "POST": 2
+    }
+  },
+  "TS26512_M5_DynamicPolicies.yaml": {
+    "title": "M5_DynamicPolicies",
+    "version": "3.0.4",
+    "securitySchemes": [],
+    "paths": {},
+    "method_count": {}
+  },
+  "TS26512_Mas_Configuration_ContentPreparationTemplates.yaml": {
+    "title": "Mas_Configuration_ContentPreparationTemplates",
+    "version": "1.0.1",
+    "securitySchemes": [
+      "OAuth2"
+    ],
+    "paths": {
+      "/content-preparation-templates": {
+        "get": {
+          "summary": "Retrieve a list of Content Preparation Template resource identifiers currently registered with the 5GMS AS",
+          "responses": [
+            "200",
+            "400",
+            "401",
+            "413",
+            "500",
+            "503",
+            "default"
+          ],
+          "security": [
+            "OAuth2"
+          ]
+        }
+      },
+      "/content-preparation-templates/{afResourceId}": {
+        "post": {
+          "summary": "Create a new Content Preparation Template resource and populate it with the representation provided in the request body",
+          "responses": [
+            "201",
+            "400",
+            "401",
+            "409",
+            "410",
+            "411",
+            "413",
+            "414",
+            "415",
+            "500",
+            "503",
+            "default"
+          ],
+          "security": [
+            "OAuth2"
+          ]
+        },
+        "put": {
+          "summary": "Replace an existing Content Preparation Template resource with a new representation",
+          "responses": [
+            "200",
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "410",
+            "411",
+            "413",
+            "414",
+            "415",
+            "500",
+            "503",
+            "default"
+          ],
+          "security": [
+            "OAuth2"
+          ]
+        },
+        "delete": {
+          "summary": "Destroy an existing Server Certificate resource",
+          "responses": [
+            "204",
+            "400",
+            "401",
+            "404",
+            "409",
+            "410",
+            "413",
+            "414",
+            "500",
+            "503",
+            "default"
+          ],
+          "security": [
+            "OAuth2"
+          ]
+        }
+      }
+    },
+    "method_count": {
+      "GET": 1,
+      "POST": 1,
+      "PUT": 1,
+      "DELETE": 1
+    }
+  },
+  "TS28317_RanScNrm.yaml": {
+    "title": "RANSC NRM",
+    "version": "19.0.0",
+    "securitySchemes": [],
+    "paths": {},
+    "method_count": {}
+  },
+  "TS29222_AEF_Security_API.yaml": {
+    "title": "AEF_Security_API",
+    "version": "1.4.0-alpha.1",
+    "securitySchemes": [],
+    "paths": {
+      "/check-authentication": {
+        "post": {
+          "summary": "Check authentication.",
+          "responses": [
+            "200",
+            "307",
+            "308",
+            "400",
+            "401",
+            "403",
+            "404",
+            "411",
+            "413",
+            "415",
+            "429",
+            "500",
+            "503",
+            "default"
+          ],
+          "security": []
+        }
+      },
+      "/revoke-authorization": {
+        "post": {
+          "summary": "Revoke authorization.",
+          "responses": [
+            "200",
+            "307",
+            "308",
+            "400",
+            "401",
+            "403",
+            "404",
+            "411",
+            "413",
+            "415",
+            "429",
+            "500",
+            "503",
+            "default"
+          ],
+          "security": []
+        }
+      }
+    },
+    "method_count": {
+      "POST": 2
+    }
+  }
+}

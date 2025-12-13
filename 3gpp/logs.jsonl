@@ -1,0 +1,60 @@
+{"timestamp": "2025-12-12T15:18:13.706173Z", "level": "INFO", "message": "YAML files found", "count": 5}
+{"timestamp": "2025-12-12T15:18:13.719174Z", "level": "INFO", "message": "Parsed file", "file": "TS24560_Aimlec_AimlTaskTransfer.yaml"}
+{"timestamp": "2025-12-12T15:18:13.726487Z", "level": "INFO", "message": "Parsed file", "file": "TS26512_M5_DynamicPolicies.yaml"}
+{"timestamp": "2025-12-12T15:18:13.740400Z", "level": "INFO", "message": "Parsed file", "file": "TS26512_Mas_Configuration_ContentPreparationTemplates.yaml"}
+{"timestamp": "2025-12-12T15:18:13.749852Z", "level": "INFO", "message": "Parsed file", "file": "TS28317_RanScNrm.yaml"}
+{"timestamp": "2025-12-12T15:18:13.758851Z", "level": "INFO", "message": "Parsed file", "file": "TS29222_AEF_Security_API.yaml"}
+{"timestamp": "2025-12-12T15:18:13.761270Z", "level": "INFO", "message": "metadata.json created"}
+{"timestamp": "2025-12-12T15:18:13.761270Z", "level": "INFO", "message": "summary.json created", "total_endpoints": 8}
+{"timestamp": "2025-12-12T16:09:32.946302Z", "level": "INFO", "message": "YAML files found", "count": 5}
+{"timestamp": "2025-12-12T16:09:33.030102Z", "level": "INFO", "message": "Parsed file", "file": "TS24560_Aimlec_AimlTaskTransfer.yaml"}
+{"timestamp": "2025-12-12T16:09:33.063979Z", "level": "INFO", "message": "Parsed file", "file": "TS26512_M5_DynamicPolicies.yaml"}
+{"timestamp": "2025-12-12T16:09:33.130680Z", "level": "INFO", "message": "Parsed file", "file": "TS26512_Mas_Configuration_ContentPreparationTemplates.yaml"}
+{"timestamp": "2025-12-12T16:09:33.171388Z", "level": "INFO", "message": "Parsed file", "file": "TS28317_RanScNrm.yaml"}
+{"timestamp": "2025-12-12T16:09:33.225568Z", "level": "INFO", "message": "Parsed file", "file": "TS29222_AEF_Security_API.yaml"}
+{"timestamp": "2025-12-12T16:09:33.230571Z", "level": "INFO", "message": "metadata.json created"}
+{"timestamp": "2025-12-12T16:09:33.235576Z", "level": "INFO", "message": "summary.json created", "total_endpoints": 8}
+{"timestamp": "2025-12-12T16:13:27.111789Z", "level": "INFO", "message": "YAML files found", "count": 5}
+{"timestamp": "2025-12-12T16:13:27.162620Z", "level": "INFO", "message": "Parsed file", "file": "TS24283_Lms_Information.yaml"}
+{"timestamp": "2025-12-12T16:13:27.186844Z", "level": "INFO", "message": "Parsed file", "file": "TS24560_Aimlec_AimlTaskTransfer.yaml"}
+{"timestamp": "2025-12-12T16:13:27.193851Z", "level": "INFO", "message": "Parsed file", "file": "TS26512_M5_DynamicPolicies.yaml"}
+{"timestamp": "2025-12-12T16:13:27.212995Z", "level": "INFO", "message": "Parsed file", "file": "TS26512_Mas_Configuration_ContentPreparationTemplates.yaml"}
+{"timestamp": "2025-12-12T16:13:27.222545Z", "level": "INFO", "message": "Parsed file", "file": "TS28317_RanScNrm.yaml"}
+{"timestamp": "2025-12-12T16:13:27.224556Z", "level": "INFO", "message": "metadata.json created"}
+{"timestamp": "2025-12-12T16:13:27.226804Z", "level": "INFO", "message": "summary.json created", "total_endpoints": 11}
+{"timestamp": "2025-12-12T16:35:48.374317+00:00", "level": "INFO", "message": "YAML files found", "count": 6}
+{"timestamp": "2025-12-12T16:35:48.429410+00:00", "level": "INFO", "message": "Parsed file", "file": "TS24283_Lms_Information.yaml"}
+{"timestamp": "2025-12-12T16:35:48.447643+00:00", "level": "INFO", "message": "Parsed file", "file": "TS24560_Aimlec_AimlTaskTransfer.yaml"}
+{"timestamp": "2025-12-12T16:35:48.460171+00:00", "level": "INFO", "message": "Parsed file", "file": "TS26512_M5_DynamicPolicies.yaml"}
+{"timestamp": "2025-12-12T16:35:48.495118+00:00", "level": "INFO", "message": "Parsed file", "file": "TS26512_Mas_Configuration_ContentPreparationTemplates.yaml"}
+{"timestamp": "2025-12-12T16:35:48.519124+00:00", "level": "INFO", "message": "Parsed file", "file": "TS28317_RanScNrm.yaml"}
+{"timestamp": "2025-12-12T16:35:48.547226+00:00", "level": "INFO", "message": "Parsed file", "file": "TS29222_AEF_Security_API.yaml"}
+{"timestamp": "2025-12-12T16:35:48.551220+00:00", "level": "INFO", "message": "metadata.json created"}
+{"timestamp": "2025-12-12T16:35:48.554222+00:00", "level": "INFO", "message": "summary.json created", "total_endpoints": 13}
+{"timestamp": "2025-12-13T03:50:32.821881+00:00", "level": "INFO", "message": "YAML files found", "count": 6}
+{"timestamp": "2025-12-13T03:50:32.963046+00:00", "level": "INFO", "message": "Parsed file", "file": "TS24283_Lms_Information.yaml"}
+{"timestamp": "2025-12-13T03:50:33.025218+00:00", "level": "INFO", "message": "Parsed file", "file": "TS24560_Aimlec_AimlTaskTransfer.yaml"}
+{"timestamp": "2025-12-13T03:50:33.050311+00:00", "level": "INFO", "message": "Parsed file", "file": "TS26512_M5_DynamicPolicies.yaml"}
+{"timestamp": "2025-12-13T03:50:33.133283+00:00", "level": "INFO", "message": "Parsed file", "file": "TS26512_Mas_Configuration_ContentPreparationTemplates.yaml"}
+{"timestamp": "2025-12-13T03:50:33.199408+00:00", "level": "INFO", "message": "Parsed file", "file": "TS28317_RanScNrm.yaml"}
+{"timestamp": "2025-12-13T03:50:33.281644+00:00", "level": "INFO", "message": "Parsed file", "file": "TS29222_AEF_Security_API.yaml"}
+{"timestamp": "2025-12-13T03:50:33.285553+00:00", "level": "INFO", "message": "metadata.json created"}
+{"timestamp": "2025-12-13T03:50:33.288045+00:00", "level": "INFO", "message": "summary.json created", "total_endpoints": 13}
+{"timestamp": "2025-12-13T07:22:20.214534+00:00", "level": "INFO", "message": "YAML files found", "count": 6}
+{"timestamp": "2025-12-13T07:22:20.268525+00:00", "level": "INFO", "message": "Parsed file", "file": "TS24283_Lms_Information.yaml"}
+{"timestamp": "2025-12-13T07:22:20.287291+00:00", "level": "INFO", "message": "Parsed file", "file": "TS24560_Aimlec_AimlTaskTransfer.yaml"}
+{"timestamp": "2025-12-13T07:22:20.298038+00:00", "level": "INFO", "message": "Parsed file", "file": "TS26512_M5_DynamicPolicies.yaml"}
+{"timestamp": "2025-12-13T07:22:20.404561+00:00", "level": "INFO", "message": "Parsed file", "file": "TS26512_Mas_Configuration_ContentPreparationTemplates.yaml"}
+{"timestamp": "2025-12-13T07:22:20.429554+00:00", "level": "INFO", "message": "Parsed file", "file": "TS28317_RanScNrm.yaml"}
+{"timestamp": "2025-12-13T07:22:20.456063+00:00", "level": "INFO", "message": "Parsed file", "file": "TS29222_AEF_Security_API.yaml"}
+{"timestamp": "2025-12-13T07:22:20.461687+00:00", "level": "INFO", "message": "metadata.json created"}
+{"timestamp": "2025-12-13T07:22:20.466604+00:00", "level": "INFO", "message": "summary.json created", "total_endpoints": 13}
+{"timestamp": "2025-12-13T07:55:11.626626+00:00", "level": "INFO", "message": "YAML files found", "count": 6}
+{"timestamp": "2025-12-13T07:55:11.679203+00:00", "level": "INFO", "message": "Parsed file", "file": "TS24283_Lms_Information.yaml"}
+{"timestamp": "2025-12-13T07:55:11.695080+00:00", "level": "INFO", "message": "Parsed file", "file": "TS24560_Aimlec_AimlTaskTransfer.yaml"}
+{"timestamp": "2025-12-13T07:55:11.702199+00:00", "level": "INFO", "message": "Parsed file", "file": "TS26512_M5_DynamicPolicies.yaml"}
+{"timestamp": "2025-12-13T07:55:11.728039+00:00", "level": "INFO", "message": "Parsed file", "file": "TS26512_Mas_Configuration_ContentPreparationTemplates.yaml"}
+{"timestamp": "2025-12-13T07:55:11.744637+00:00", "level": "INFO", "message": "Parsed file", "file": "TS28317_RanScNrm.yaml"}
+{"timestamp": "2025-12-13T07:55:11.760274+00:00", "level": "INFO", "message": "Parsed file", "file": "TS29222_AEF_Security_API.yaml"}
+{"timestamp": "2025-12-13T07:55:11.763190+00:00", "level": "INFO", "message": "metadata.json created"}
+{"timestamp": "2025-12-13T07:55:11.767900+00:00", "level": "INFO", "message": "summary.json created", "total_endpoints": 13}

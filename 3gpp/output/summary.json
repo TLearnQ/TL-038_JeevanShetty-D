@@ -1,0 +1,82 @@
+{
+  "total_endpoints": 13,
+  "method_count": {
+    "POST": 8,
+    "PUT": 2,
+    "DELETE": 2,
+    "GET": 1
+  },
+  "endpoints_with_response": [
+    {
+      "file": "TS24283_Lms_Information.yaml",
+      "path": "/requests",
+      "method": "post"
+    },
+    {
+      "file": "TS24283_Lms_Information.yaml",
+      "path": "/subscriptions",
+      "method": "post"
+    },
+    {
+      "file": "TS24283_Lms_Information.yaml",
+      "path": "/subscriptions/{subscriptionId}",
+      "method": "put"
+    },
+    {
+      "file": "TS24283_Lms_Information.yaml",
+      "path": "/subscriptions/{subscriptionId}",
+      "method": "delete"
+    },
+    {
+      "file": "TS24283_Lms_Information.yaml",
+      "path": "/configrequest",
+      "method": "post"
+    },
+    {
+      "file": "TS24560_Aimlec_AimlTaskTransfer.yaml",
+      "path": "/request",
+      "method": "post"
+    },
+    {
+      "file": "TS24560_Aimlec_AimlTaskTransfer.yaml",
+      "path": "/request-direct",
+      "method": "post"
+    },
+    {
+      "file": "TS26512_Mas_Configuration_ContentPreparationTemplates.yaml",
+      "path": "/content-preparation-templates",
+      "method": "get"
+    },
+    {
+      "file": "TS26512_Mas_Configuration_ContentPreparationTemplates.yaml",
+      "path": "/content-preparation-templates/{afResourceId}",
+      "method": "post"
+    },
+    {
+      "file": "TS26512_Mas_Configuration_ContentPreparationTemplates.yaml",
+      "path": "/content-preparation-templates/{afResourceId}",
+      "method": "put"
+    },
+    {
+      "file": "TS26512_Mas_Configuration_ContentPreparationTemplates.yaml",
+      "path": "/content-preparation-templates/{afResourceId}",
+      "method": "delete"
+    },
+    {
+      "file": "TS29222_AEF_Security_API.yaml",
+      "path": "/check-authentication",
+      "method": "post"
+    },
+    {
+      "file": "TS29222_AEF_Security_API.yaml",
+      "path": "/revoke-authorization",
+      "method": "post"
+    }
+  ],
+  "endpoints_without_response": [],
+  "auth_methods": [
+    "oAuth2ClientCredentials",
+    "BearerAuth",
+    "OAuth2"
+  ]
+}
